@@ -1,9 +1,11 @@
-import { createEditor } from '../jest/utils/create-editor'
+import Konva from 'konva'
 
-describe('Shape -> Label', () => {
-  it('should create a triangle', () => {
-    const editor = createEditor()
-
-    expect(editor).toBeNull()
+describe('foo', () => {
+  it('bar', () => {
+    const stage = new Konva.Stage({
+      container: '.main',
+      width: 1000,
+      height: 1000
+    })
   })
 })
